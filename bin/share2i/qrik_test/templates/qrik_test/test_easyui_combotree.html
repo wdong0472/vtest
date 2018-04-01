@@ -1,0 +1,22 @@
+{% extends  'qrik_test/base_test.html' %}
+
+{% load staticfiles %}
+{% block css_header %} {% endblock %}
+    
+{% block js_header %} 
+
+{% include 'qrik_widgets/easyui_import.html' %}
+
+{% endblock %}
+    
+{% block html_test %} 
+
+<div id="tree1"> </div>
+
+{% endblock %}
+
+{% block js_footer %} 
+
+<script type="text/javascript" src="{% url 'qrik_widgets:easyui_combotree' 'combotree' 'tree1'%}"></script>
+
+{% endblock %}

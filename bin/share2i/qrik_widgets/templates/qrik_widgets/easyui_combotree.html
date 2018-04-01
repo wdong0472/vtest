@@ -1,0 +1,19 @@
+{% load staticfiles %}
+
+{# created by wdong@2017-09-05 #}
+
+{# parameters 1 conent config by Qrik_Tool/Content #}
+{# parameters 2 id come from views method #}
+
+$(function(){
+    $('#{{id}}').combotree({
+        url: '{% static 'qrik_test/tree_data1.json'%}'
+        ,required: true
+        ,method:'get'
+        ,label:'Select Nodes:'
+        ,labelPosition:'top'
+        ,multiple:true
+        ,value:[122,124]
+    });
+});
+

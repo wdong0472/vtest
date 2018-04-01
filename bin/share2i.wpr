@@ -1,0 +1,51 @@
+#!wing
+#!version=6.0
+##################################################################
+# Wing IDE project file                                          #
+##################################################################
+[project attributes]
+debug.launch-configs = (2,
+                        {'launch-90bgAuPrh0gtCptO': ({},
+        {'buildcmd': ('project',
+                      None),
+         'env': ('project',
+                 [u'']),
+         'name': u'Launch manage.py',
+         'pyexec': ('project',
+                    u''),
+         'pypath': ('project',
+                    ''),
+         'pyrunargs': ('project',
+                       '-u'),
+         'runargs': u'runserver 0.0.0.0:8000',
+         'rundir': ('project',
+                    u'')}),
+                         'launch-NZ37KpCCCEwpqb2t': ({'shared': True},
+        {'buildcmd': ('project',
+                      None),
+         'env': ('project',
+                 [u'']),
+         'name': u'Launch manage.py',
+         'pyexec': ('project',
+                    u''),
+         'pypath': ('project',
+                    []),
+         'pyrunargs': ('project',
+                       '-u'),
+         'runargs': u'runserver 8000',
+         'rundir': ('project',
+                    u'')})})
+proj.debug-sub-processes = True
+proj.directory-list = [{'dirloc': loc('share2i'),
+                        'excludes': [u'share2i/settings 2.py',
+                                     u'qrik_ui/static/qrik_ui/index/index.html'],
+                        'filter': '*',
+                        'include_hidden': False,
+                        'recursive': True,
+                        'watch_for_changes': True}]
+proj.file-type = 'shared'
+proj.launch-config = {loc('share2i/manage.py'): ('custom',
+        (u'',
+         'launch-90bgAuPrh0gtCptO'))}
+proj.main-file = loc('share2i/manage.py')
+testing.test-framework = {loc('share2i/manage.py'): ':internal djangotest'}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.13 virtualenv at ~/vtest" project-jdk-type="Python SDK" />
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration useDefault="false">$PROJECT_DIR$/../../../../bin/svnadmin</configuration>
+    <option name="runUnderTerminal" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="true" />
+  </component>
+</project>

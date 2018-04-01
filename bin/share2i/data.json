@@ -1,0 +1,1910 @@
+[
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "qrik_tools",
+            "model": "contextvar"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "qrik_tools",
+            "model": "context"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "qrik_data",
+            "model": "codeman"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "qrik_data",
+            "model": "category"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "qrik_data",
+            "model": "codedata"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": {
+            "app_label": "tpm_info",
+            "model": "eqporg"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 13,
+        "fields": {
+            "app_label": "tpm_info",
+            "model": "manufacturer"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 14,
+        "fields": {
+            "app_label": "tpm_info",
+            "model": "eqpsection"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 15,
+        "fields": {
+            "app_label": "tpm_info",
+            "model": "eqpmodel"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 16,
+        "fields": {
+            "app_label": "tpm_info",
+            "model": "unit"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 17,
+        "fields": {
+            "app_label": "tpm_info",
+            "model": "eqpclass"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 18,
+        "fields": {
+            "app_label": "tpm_info",
+            "model": "eqphost"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 19,
+        "fields": {
+            "app_label": "tpm_info",
+            "model": "eqptype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 20,
+        "fields": {
+            "app_label": "tpm_info",
+            "model": "eqppartextend"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 21,
+        "fields": {
+            "app_label": "tpm_info",
+            "model": "eqpunitextend"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 22,
+        "fields": {
+            "app_label": "tpm_info",
+            "model": "eqplevel"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 23,
+        "fields": {
+            "app_label": "tpm_info",
+            "model": "eqphostextend"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 24,
+        "fields": {
+            "app_label": "tpm_info",
+            "model": "eqpunit"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 25,
+        "fields": {
+            "app_label": "tpm_info",
+            "model": "eqppart"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 26,
+        "fields": {
+            "app_label": "tpm_standard",
+            "model": "lubricationstandard"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 27,
+        "fields": {
+            "app_label": "tpm_standard",
+            "model": "taststandard"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 28,
+        "fields": {
+            "app_label": "tpm_standard",
+            "model": "spotstandard"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 29,
+        "fields": {
+            "app_label": "tpm_standard",
+            "model": "eqpstandard"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 30,
+        "fields": {
+            "app_label": "tpm_scheme",
+            "model": "spotscheme"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 31,
+        "fields": {
+            "app_label": "tpm_scheme",
+            "model": "preventivescheme"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 32,
+        "fields": {
+            "app_label": "tpm_scheme",
+            "model": "falutscheme"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 33,
+        "fields": {
+            "app_label": "tpm_spot",
+            "model": "spotresource"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 34,
+        "fields": {
+            "app_label": "tpm_spot",
+            "model": "spotplan"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 35,
+        "fields": {
+            "app_label": "tpm_spot",
+            "model": "spottasktrac"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 36,
+        "fields": {
+            "app_label": "tpm_spot",
+            "model": "spottask"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 37,
+        "fields": {
+            "app_label": "tpm_spot",
+            "model": "spotscheduling"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 38,
+        "fields": {
+            "app_label": "tpm_spot",
+            "model": "spotexception"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 39,
+        "fields": {
+            "app_label": "tpm_preventive",
+            "model": "preventivetasktrac"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 40,
+        "fields": {
+            "app_label": "tpm_preventive",
+            "model": "preventiveplan"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 41,
+        "fields": {
+            "app_label": "tpm_preventive",
+            "model": "preventiveresource"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 42,
+        "fields": {
+            "app_label": "tpm_preventive",
+            "model": "preventivetask"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 43,
+        "fields": {
+            "app_label": "tpm_preventive",
+            "model": "preventivescheduling"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 44,
+        "fields": {
+            "app_label": "tpm_falut",
+            "model": "falutscheduling"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 45,
+        "fields": {
+            "app_label": "tpm_falut",
+            "model": "falutconfirm"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 46,
+        "fields": {
+            "app_label": "tpm_falut",
+            "model": "faluttask"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 47,
+        "fields": {
+            "app_label": "tpm_falut",
+            "model": "faluttasktrac"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 48,
+        "fields": {
+            "app_label": "tpm_falut",
+            "model": "falutresource"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 49,
+        "fields": {
+            "app_label": "tpm_falut",
+            "model": "falutplan"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 50,
+        "fields": {
+            "app_label": "tpm_failure",
+            "model": "failureplan"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 51,
+        "fields": {
+            "app_label": "tpm_failure",
+            "model": "failureresource"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 52,
+        "fields": {
+            "app_label": "tpm_failure",
+            "model": "failuretasktrac"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 53,
+        "fields": {
+            "app_label": "tpm_failure",
+            "model": "failuretask"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 54,
+        "fields": {
+            "app_label": "tpm_failure",
+            "model": "failurescheduling"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 2,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 2,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 2,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 3,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 3,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 3,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can add 变量",
+            "content_type": 7,
+            "codename": "add_contextvar"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can change 变量",
+            "content_type": 7,
+            "codename": "change_contextvar"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can delete 变量",
+            "content_type": 7,
+            "codename": "delete_contextvar"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can add 模板",
+            "content_type": 8,
+            "codename": "add_context"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can change 模板",
+            "content_type": 8,
+            "codename": "change_context"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can delete 模板",
+            "content_type": 8,
+            "codename": "delete_context"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add SQL配置",
+            "content_type": 9,
+            "codename": "add_codeman"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change SQL配置",
+            "content_type": 9,
+            "codename": "change_codeman"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete SQL配置",
+            "content_type": 9,
+            "codename": "delete_codeman"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can add 数据类别",
+            "content_type": 10,
+            "codename": "add_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can change 数据类别",
+            "content_type": 10,
+            "codename": "change_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can delete 数据类别",
+            "content_type": 10,
+            "codename": "delete_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can add 数据字典",
+            "content_type": 11,
+            "codename": "add_codedata"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can change 数据字典",
+            "content_type": 11,
+            "codename": "change_codedata"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can delete 数据字典",
+            "content_type": 11,
+            "codename": "delete_codedata"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can add 组织机构",
+            "content_type": 12,
+            "codename": "add_eqporg"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can change 组织机构",
+            "content_type": 12,
+            "codename": "change_eqporg"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can delete 组织机构",
+            "content_type": 12,
+            "codename": "delete_eqporg"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add 设备厂商",
+            "content_type": 13,
+            "codename": "add_manufacturer"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change 设备厂商",
+            "content_type": 13,
+            "codename": "change_manufacturer"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete 设备厂商",
+            "content_type": 13,
+            "codename": "delete_manufacturer"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can add 设备分组",
+            "content_type": 14,
+            "codename": "add_eqpsection"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can change 设备分组",
+            "content_type": 14,
+            "codename": "change_eqpsection"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can delete 设备分组",
+            "content_type": 14,
+            "codename": "delete_eqpsection"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can add 设备型号",
+            "content_type": 15,
+            "codename": "add_eqpmodel"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can change 设备型号",
+            "content_type": 15,
+            "codename": "change_eqpmodel"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can delete 设备型号",
+            "content_type": 15,
+            "codename": "delete_eqpmodel"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can add 计量单位",
+            "content_type": 16,
+            "codename": "add_unit"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can change 计量单位",
+            "content_type": 16,
+            "codename": "change_unit"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can delete 计量单位",
+            "content_type": 16,
+            "codename": "delete_unit"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add 设备类别",
+            "content_type": 17,
+            "codename": "add_eqpclass"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change 设备类别",
+            "content_type": 17,
+            "codename": "change_eqpclass"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete 设备类别",
+            "content_type": 17,
+            "codename": "delete_eqpclass"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can add 设备主机",
+            "content_type": 18,
+            "codename": "add_eqphost"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 53,
+        "fields": {
+            "name": "Can change 设备主机",
+            "content_type": 18,
+            "codename": "change_eqphost"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 54,
+        "fields": {
+            "name": "Can delete 设备主机",
+            "content_type": 18,
+            "codename": "delete_eqphost"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 55,
+        "fields": {
+            "name": "Can add 设备类型",
+            "content_type": 19,
+            "codename": "add_eqptype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 56,
+        "fields": {
+            "name": "Can change 设备类型",
+            "content_type": 19,
+            "codename": "change_eqptype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 57,
+        "fields": {
+            "name": "Can delete 设备类型",
+            "content_type": 19,
+            "codename": "delete_eqptype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 58,
+        "fields": {
+            "name": "Can add 扩展属性",
+            "content_type": 20,
+            "codename": "add_eqppartextend"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 59,
+        "fields": {
+            "name": "Can change 扩展属性",
+            "content_type": 20,
+            "codename": "change_eqppartextend"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 60,
+        "fields": {
+            "name": "Can delete 扩展属性",
+            "content_type": 20,
+            "codename": "delete_eqppartextend"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 61,
+        "fields": {
+            "name": "Can add 扩展属性",
+            "content_type": 21,
+            "codename": "add_eqpunitextend"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 62,
+        "fields": {
+            "name": "Can change 扩展属性",
+            "content_type": 21,
+            "codename": "change_eqpunitextend"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 63,
+        "fields": {
+            "name": "Can delete 扩展属性",
+            "content_type": 21,
+            "codename": "delete_eqpunitextend"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 64,
+        "fields": {
+            "name": "Can add 设备层级",
+            "content_type": 22,
+            "codename": "add_eqplevel"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 65,
+        "fields": {
+            "name": "Can change 设备层级",
+            "content_type": 22,
+            "codename": "change_eqplevel"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 66,
+        "fields": {
+            "name": "Can delete 设备层级",
+            "content_type": 22,
+            "codename": "delete_eqplevel"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 67,
+        "fields": {
+            "name": "Can add 设备主机扩展属性",
+            "content_type": 23,
+            "codename": "add_eqphostextend"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 68,
+        "fields": {
+            "name": "Can change 设备主机扩展属性",
+            "content_type": 23,
+            "codename": "change_eqphostextend"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 69,
+        "fields": {
+            "name": "Can delete 设备主机扩展属性",
+            "content_type": 23,
+            "codename": "delete_eqphostextend"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 70,
+        "fields": {
+            "name": "Can add 设备部件",
+            "content_type": 24,
+            "codename": "add_eqpunit"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 71,
+        "fields": {
+            "name": "Can change 设备部件",
+            "content_type": 24,
+            "codename": "change_eqpunit"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 72,
+        "fields": {
+            "name": "Can delete 设备部件",
+            "content_type": 24,
+            "codename": "delete_eqpunit"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 73,
+        "fields": {
+            "name": "Can add 设备零件",
+            "content_type": 25,
+            "codename": "add_eqppart"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 74,
+        "fields": {
+            "name": "Can change 设备零件",
+            "content_type": 25,
+            "codename": "change_eqppart"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 75,
+        "fields": {
+            "name": "Can delete 设备零件",
+            "content_type": 25,
+            "codename": "delete_eqppart"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 76,
+        "fields": {
+            "name": "Can add 润滑标准",
+            "content_type": 26,
+            "codename": "add_lubricationstandard"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 77,
+        "fields": {
+            "name": "Can change 润滑标准",
+            "content_type": 26,
+            "codename": "change_lubricationstandard"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 78,
+        "fields": {
+            "name": "Can delete 润滑标准",
+            "content_type": 26,
+            "codename": "delete_lubricationstandard"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 79,
+        "fields": {
+            "name": "Can add 作业标准",
+            "content_type": 27,
+            "codename": "add_taststandard"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 80,
+        "fields": {
+            "name": "Can change 作业标准",
+            "content_type": 27,
+            "codename": "change_taststandard"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 81,
+        "fields": {
+            "name": "Can delete 作业标准",
+            "content_type": 27,
+            "codename": "delete_taststandard"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 82,
+        "fields": {
+            "name": "Can add 点检标准",
+            "content_type": 28,
+            "codename": "add_spotstandard"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 83,
+        "fields": {
+            "name": "Can change 点检标准",
+            "content_type": 28,
+            "codename": "change_spotstandard"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 84,
+        "fields": {
+            "name": "Can delete 点检标准",
+            "content_type": 28,
+            "codename": "delete_spotstandard"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 85,
+        "fields": {
+            "name": "Can add 设备标准",
+            "content_type": 29,
+            "codename": "add_eqpstandard"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 86,
+        "fields": {
+            "name": "Can change 设备标准",
+            "content_type": 29,
+            "codename": "change_eqpstandard"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 87,
+        "fields": {
+            "name": "Can delete 设备标准",
+            "content_type": 29,
+            "codename": "delete_eqpstandard"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 88,
+        "fields": {
+            "name": "Can add 点检方案",
+            "content_type": 30,
+            "codename": "add_spotscheme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 89,
+        "fields": {
+            "name": "Can change 点检方案",
+            "content_type": 30,
+            "codename": "change_spotscheme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 90,
+        "fields": {
+            "name": "Can delete 点检方案",
+            "content_type": 30,
+            "codename": "delete_spotscheme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 91,
+        "fields": {
+            "name": "Can add 保养方案",
+            "content_type": 31,
+            "codename": "add_preventivescheme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 92,
+        "fields": {
+            "name": "Can change 保养方案",
+            "content_type": 31,
+            "codename": "change_preventivescheme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 93,
+        "fields": {
+            "name": "Can delete 保养方案",
+            "content_type": 31,
+            "codename": "delete_preventivescheme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 94,
+        "fields": {
+            "name": "Can add 检修方案",
+            "content_type": 32,
+            "codename": "add_falutscheme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 95,
+        "fields": {
+            "name": "Can change 检修方案",
+            "content_type": 32,
+            "codename": "change_falutscheme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 96,
+        "fields": {
+            "name": "Can delete 检修方案",
+            "content_type": 32,
+            "codename": "delete_falutscheme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 97,
+        "fields": {
+            "name": "Can add 维修资源",
+            "content_type": 33,
+            "codename": "add_spotresource"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 98,
+        "fields": {
+            "name": "Can change 维修资源",
+            "content_type": 33,
+            "codename": "change_spotresource"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 99,
+        "fields": {
+            "name": "Can delete 维修资源",
+            "content_type": 33,
+            "codename": "delete_spotresource"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 100,
+        "fields": {
+            "name": "Can add 维修计划",
+            "content_type": 34,
+            "codename": "add_spotplan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 101,
+        "fields": {
+            "name": "Can change 维修计划",
+            "content_type": 34,
+            "codename": "change_spotplan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 102,
+        "fields": {
+            "name": "Can delete 维修计划",
+            "content_type": 34,
+            "codename": "delete_spotplan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 103,
+        "fields": {
+            "name": "Can add 任务跟踪",
+            "content_type": 35,
+            "codename": "add_spottasktrac"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 104,
+        "fields": {
+            "name": "Can change 任务跟踪",
+            "content_type": 35,
+            "codename": "change_spottasktrac"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 105,
+        "fields": {
+            "name": "Can delete 任务跟踪",
+            "content_type": 35,
+            "codename": "delete_spottasktrac"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 106,
+        "fields": {
+            "name": "Can add 任务执行",
+            "content_type": 36,
+            "codename": "add_spottask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 107,
+        "fields": {
+            "name": "Can change 任务执行",
+            "content_type": 36,
+            "codename": "change_spottask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 108,
+        "fields": {
+            "name": "Can delete 任务执行",
+            "content_type": 36,
+            "codename": "delete_spottask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 109,
+        "fields": {
+            "name": "Can add 维修调度",
+            "content_type": 37,
+            "codename": "add_spotscheduling"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 110,
+        "fields": {
+            "name": "Can change 维修调度",
+            "content_type": 37,
+            "codename": "change_spotscheduling"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 111,
+        "fields": {
+            "name": "Can delete 维修调度",
+            "content_type": 37,
+            "codename": "delete_spotscheduling"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 112,
+        "fields": {
+            "name": "Can add 异常登记",
+            "content_type": 38,
+            "codename": "add_spotexception"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 113,
+        "fields": {
+            "name": "Can change 异常登记",
+            "content_type": 38,
+            "codename": "change_spotexception"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 114,
+        "fields": {
+            "name": "Can delete 异常登记",
+            "content_type": 38,
+            "codename": "delete_spotexception"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 115,
+        "fields": {
+            "name": "Can add 任务跟踪",
+            "content_type": 39,
+            "codename": "add_preventivetasktrac"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 116,
+        "fields": {
+            "name": "Can change 任务跟踪",
+            "content_type": 39,
+            "codename": "change_preventivetasktrac"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 117,
+        "fields": {
+            "name": "Can delete 任务跟踪",
+            "content_type": 39,
+            "codename": "delete_preventivetasktrac"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 118,
+        "fields": {
+            "name": "Can add 维修计划",
+            "content_type": 40,
+            "codename": "add_preventiveplan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 119,
+        "fields": {
+            "name": "Can change 维修计划",
+            "content_type": 40,
+            "codename": "change_preventiveplan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 120,
+        "fields": {
+            "name": "Can delete 维修计划",
+            "content_type": 40,
+            "codename": "delete_preventiveplan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 121,
+        "fields": {
+            "name": "Can add 维修资源",
+            "content_type": 41,
+            "codename": "add_preventiveresource"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 122,
+        "fields": {
+            "name": "Can change 维修资源",
+            "content_type": 41,
+            "codename": "change_preventiveresource"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 123,
+        "fields": {
+            "name": "Can delete 维修资源",
+            "content_type": 41,
+            "codename": "delete_preventiveresource"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 124,
+        "fields": {
+            "name": "Can add 任务执行",
+            "content_type": 42,
+            "codename": "add_preventivetask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 125,
+        "fields": {
+            "name": "Can change 任务执行",
+            "content_type": 42,
+            "codename": "change_preventivetask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 126,
+        "fields": {
+            "name": "Can delete 任务执行",
+            "content_type": 42,
+            "codename": "delete_preventivetask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 127,
+        "fields": {
+            "name": "Can add 维修调度",
+            "content_type": 43,
+            "codename": "add_preventivescheduling"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 128,
+        "fields": {
+            "name": "Can change 维修调度",
+            "content_type": 43,
+            "codename": "change_preventivescheduling"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 129,
+        "fields": {
+            "name": "Can delete 维修调度",
+            "content_type": 43,
+            "codename": "delete_preventivescheduling"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 130,
+        "fields": {
+            "name": "Can add 维修调度",
+            "content_type": 44,
+            "codename": "add_falutscheduling"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 131,
+        "fields": {
+            "name": "Can change 维修调度",
+            "content_type": 44,
+            "codename": "change_falutscheduling"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 132,
+        "fields": {
+            "name": "Can delete 维修调度",
+            "content_type": 44,
+            "codename": "delete_falutscheduling"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 133,
+        "fields": {
+            "name": "Can add 缺陷确认",
+            "content_type": 45,
+            "codename": "add_falutconfirm"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 134,
+        "fields": {
+            "name": "Can change 缺陷确认",
+            "content_type": 45,
+            "codename": "change_falutconfirm"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 135,
+        "fields": {
+            "name": "Can delete 缺陷确认",
+            "content_type": 45,
+            "codename": "delete_falutconfirm"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 136,
+        "fields": {
+            "name": "Can add 任务执行",
+            "content_type": 46,
+            "codename": "add_faluttask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 137,
+        "fields": {
+            "name": "Can change 任务执行",
+            "content_type": 46,
+            "codename": "change_faluttask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 138,
+        "fields": {
+            "name": "Can delete 任务执行",
+            "content_type": 46,
+            "codename": "delete_faluttask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 139,
+        "fields": {
+            "name": "Can add 任务跟踪",
+            "content_type": 47,
+            "codename": "add_faluttasktrac"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 140,
+        "fields": {
+            "name": "Can change 任务跟踪",
+            "content_type": 47,
+            "codename": "change_faluttasktrac"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 141,
+        "fields": {
+            "name": "Can delete 任务跟踪",
+            "content_type": 47,
+            "codename": "delete_faluttasktrac"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 142,
+        "fields": {
+            "name": "Can add 维修资源",
+            "content_type": 48,
+            "codename": "add_falutresource"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 143,
+        "fields": {
+            "name": "Can change 维修资源",
+            "content_type": 48,
+            "codename": "change_falutresource"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 144,
+        "fields": {
+            "name": "Can delete 维修资源",
+            "content_type": 48,
+            "codename": "delete_falutresource"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 145,
+        "fields": {
+            "name": "Can add 维修计划",
+            "content_type": 49,
+            "codename": "add_falutplan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 146,
+        "fields": {
+            "name": "Can change 维修计划",
+            "content_type": 49,
+            "codename": "change_falutplan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 147,
+        "fields": {
+            "name": "Can delete 维修计划",
+            "content_type": 49,
+            "codename": "delete_falutplan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 148,
+        "fields": {
+            "name": "Can add 维修计划",
+            "content_type": 50,
+            "codename": "add_failureplan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 149,
+        "fields": {
+            "name": "Can change 维修计划",
+            "content_type": 50,
+            "codename": "change_failureplan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 150,
+        "fields": {
+            "name": "Can delete 维修计划",
+            "content_type": 50,
+            "codename": "delete_failureplan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 151,
+        "fields": {
+            "name": "Can add 维修资源",
+            "content_type": 51,
+            "codename": "add_failureresource"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 152,
+        "fields": {
+            "name": "Can change 维修资源",
+            "content_type": 51,
+            "codename": "change_failureresource"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 153,
+        "fields": {
+            "name": "Can delete 维修资源",
+            "content_type": 51,
+            "codename": "delete_failureresource"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 154,
+        "fields": {
+            "name": "Can add 任务跟踪",
+            "content_type": 52,
+            "codename": "add_failuretasktrac"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 155,
+        "fields": {
+            "name": "Can change 任务跟踪",
+            "content_type": 52,
+            "codename": "change_failuretasktrac"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 156,
+        "fields": {
+            "name": "Can delete 任务跟踪",
+            "content_type": 52,
+            "codename": "delete_failuretasktrac"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 157,
+        "fields": {
+            "name": "Can add 任务执行",
+            "content_type": 53,
+            "codename": "add_failuretask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 158,
+        "fields": {
+            "name": "Can change 任务执行",
+            "content_type": 53,
+            "codename": "change_failuretask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 159,
+        "fields": {
+            "name": "Can delete 任务执行",
+            "content_type": 53,
+            "codename": "delete_failuretask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 160,
+        "fields": {
+            "name": "Can add 维修调度",
+            "content_type": 54,
+            "codename": "add_failurescheduling"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 161,
+        "fields": {
+            "name": "Can change 维修调度",
+            "content_type": 54,
+            "codename": "change_failurescheduling"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 162,
+        "fields": {
+            "name": "Can delete 维修调度",
+            "content_type": 54,
+            "codename": "delete_failurescheduling"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$36000$xa7UNwZ5ewN4$MfX49jacrJ/X07dlcC2J+FQpcRMi9cUkIbNd50tBxQk=",
+            "last_login": null,
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "wangdong@kmopt.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2017-07-28T09:36:02.562",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]
